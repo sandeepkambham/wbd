@@ -116,7 +116,7 @@ def getSightingsgetSightings(assumedLatitude, assumedLongitude):
 				geographicPositionLongitude = ( LHS + GHA ) / 360
 				adjustedgeographicPositionLatitude = round (geographicPositionLatitude,1)
 				adjustedgeographicPositionLongitude = round (geographicPositionLongitude,1)
-       /* if observation in (natural):
+        if observation in (natural):
 		    dip = ( -0.97 * sqrt( height ) ) / 60
         else			
 		    dip = 0			
